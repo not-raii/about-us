@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* SERTIFIKAT */
+.sertifikat {
+  height: max-content;
+  background-color: rgba(39, 51, 25, 1);
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.sertifikat h1 {
+  text-align: center;
+  color: khaki;
+}
+.main-sertifikat1 h1 {
+  text-align: center;
+  font-size: 23px;
+  padding: 20px;
+  color: #676d42;
+}
+.main-sertifikat2 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 23px;
+  color: #ccb910;
+  padding: 20px;
+}
+
+.img-sertifikat1 img {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.img-sertifikat1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-sertifikat2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-sertifikat2 img {
+  padding-top: 20px;
+  width: 50%;
+}
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+  .sertifikat {
+    height: 40vh;
+  }
+}
+/* AKHIR SERTIFIKAT */
+
+/* MESSAGE */
+.section-message {
+  background: url(img-message1.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  background-position: center;
+  padding-bottom: 30px;
+}
+.title-message {
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+}
+.logo {
+  width: 100px;
+  float: right;
+}
+.message {
+  background-color: rgba(39, 51, 25, 1);
+  color: #989b7d;
+  margin-top: 6rem;
+  width: 100%;
+}
+.img-message img {
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.message {
+  border: none;
+  border-radius: 20px;
+}
+.message img {
+  margin-top: 50px;
+  width: 200px;
+  border-radius: 15px;
+  margin-left: 25%;
+}
+.message,
+.card-text {
+  text-align: center;
+}
+.message,
+.card-title {
+  text-align: center;
+  color: khaki;
+}
+@media (max-width: 575.98px) {
+  .message {
+    margin-bottom: 50px;
+  }
+  .img-message img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+  .message {
+    width: 120%;
+  }
+  .message img {
+    margin-left: 28px;
+  }
+  .img-message {
+    position: absolute;
+    width: 70%;
+    top: 600px;
+    right: 100px;
+  }
+  .message {
+    z-index: 999;
+    margin-top: 150px;
+  }
+  .title-message p {
+    font-size: 20px;
+  }
+}
+/* AKHIR MESSAGE */
+
+/* INTRUKSI */
+.section-intruksi {
+  height: max-content;
+  margin-bottom: 40px;
+}
+.main-intruksi {
+  background: url(bg-intruksi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.judul-intruksi {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.judul-intruksi p {
+  width: 100%;
+  margin: 0 auto;
+}
+.intruksi {
+  width: 50%;
+  text-align: center;
+  margin: 150px auto;
+  background: rgba(228, 238, 240, 0.3);
+  backdrop-filter: blur(6px) !important;
+  border: none;
+  border-radius: 20px;
+}
+.isi-intruksi {
+  width: 50%;
+  line-height: 30px;
+  margin: 0 auto;
+  color: khaki;
+  font-weight: 700;
+}
+.isi-intruksi h5 {
+  color: khaki;
+  font-weight: 700;
+}
+@media (max-width: 575.98px) {
+  .message {
+    margin-bottom: 50px;
+  }
+  .img-message img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .intruksi {
+    width: 90%;
+    height: max-content;
+    margin: 100px auto;
+  }
+
+  .isi-intruksi {
+    width: 100%;
+    height: max-content;
+  }
+}
+@media (min-width: 575.98px) and (max-width: 991.98px) {
+  .intruksi {
+    width: 90%;
+    height: max-content;
+    margin: 100px auto;
+  }
+  .intruksi {
+    width: 70%;
+    margin: 200px auto;
+  }
+  .isi-intruksi {
+    width: 90%;
+    height: max-content;
+    line-height: 40px;
+  }
+}
+/* AKHIR INTRUKSI */
+/* GALERY */
+.section-galery {
+  height: max-content;
+}
+.main-galery h2 {
+  text-align: center;
+}
+/* AKHIR GALERI */
